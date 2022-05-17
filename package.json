@@ -1,0 +1,35 @@
+{
+  "private": "true",
+  "name": "animation",
+  "version": "0.0.1",
+  "scripts": {
+    "type-check": "tsc",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": "eslint"
+  },
+  "author": {
+    "name": "creep",
+    "email": "creepcn@gmail.com"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.6",
+    "vite-plugin-windicss": "^1.8.4",
+    "windicss": "^3.5.1"
+  }
+}
