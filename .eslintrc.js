@@ -12,6 +12,18 @@ module.exports = {
     browser: true,
     es2022: true,
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: [
+          '.js',
+          '.jsx',
+          '.ts',
+          '.tsx',
+        ],
+      },
+    },
+  },
   rules: {
     complexity: ['error', { max: 10 }],
     'import/no-extraneous-dependencies': [
@@ -25,5 +37,15 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': ['off'],
+    'import/extensions': [
+      'error',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+        json: 'always',
+      },
+    ],
   },
 };
