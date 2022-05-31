@@ -48,5 +48,6 @@ module.exports = {
         json: 'always',
       },
     ],
+    semi: ['error', 'never'],
   },
-};
+}
