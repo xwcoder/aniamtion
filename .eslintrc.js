@@ -22,6 +22,7 @@ module.exports = {
           '.tsx',
         ],
       },
+      typescript: {},
     },
   },
   rules: {
