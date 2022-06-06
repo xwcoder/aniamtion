@@ -49,5 +49,8 @@ module.exports = {
       },
     ],
     semi: ['error', 'never'],
+    'no-bitwise': ['off'],
+    'no-mixed-operators': ['off'],
+    'no-nested-ternary': ['off'],
   },
 }
